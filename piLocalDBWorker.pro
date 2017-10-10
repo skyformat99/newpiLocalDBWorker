@@ -15,16 +15,13 @@ SOURCES += main.cpp \
     WindowProtocol/src/windowprotocol.cpp \
     CanProtocol/src/canprotocol.cpp \
     shared/commonthings.cpp \
-    src/connectdatabase.cpp \
-    src/pilocaldbworker.cpp \
-    src/pilocaldbworkervarset.cpp \
-    src/setissentcolumnonlocaldatabase.cpp \
-    src/updatelocaldatabase.cpp \
-    src/updateonlinedatabase.cpp \
-    src/wait4errorhandler4pilocaldbworker.cpp \
     shared/abstractstatemachinebasis.cpp \
     shared/directtransition.cpp \
-    src/pilocaldbworkerbasis.cpp
+    src/pilocaldbworker.cpp \
+    src/pilocaldbworkerbasis.cpp \
+    src/uninitiatedpilocaldbworker.cpp \
+    src/idlepilocaldbworker.cpp \
+    src/runningpilocaldbworker.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -43,13 +40,10 @@ HEADERS += \
     WindowProtocol/src/windowprotocol.h \
     CanProtocol/src/canprotocol.h \
     shared/commonthings.h \
-    src/connectdatabase.h \
-    src/pilocaldbworker.h \
-    src/pilocaldbworkervarset.h \
-    src/setissentcolumnonlocaldatabase.h \
-    src/updatelocaldatabase.h \
-    src/updateonlinedatabase.h \
-    src/wait4errorhandler4pilocaldbworker.h \
     shared/abstractstatemachinebasis.h \
     shared/directtransition.h \
-    src/pilocaldbworkerbasis.h
+    src/pilocaldbworker.h \
+    src/pilocaldbworkerbasis.h \
+    src/uninitiatedpilocaldbworker.h \
+    src/idlepilocaldbworker.h \
+    src/runningpilocaldbworker.h
